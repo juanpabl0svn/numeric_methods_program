@@ -11,7 +11,7 @@ class a(ttk.Frame):
         self.controller = controller
 
         self.equation_label = ttk.Label(self, text="Ingresa la funcion:")
-        self.equation_label.pack(pady=10)
+        self.equation_label.pack(pady=10,fill='both')
 
         self.equation_entry = ttk.Entry(self)
         self.equation_entry.pack(pady=5)

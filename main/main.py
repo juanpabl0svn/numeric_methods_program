@@ -20,8 +20,8 @@ class App(tk.Tk):
 
         self.create_menu() 
 
-        self.show_frame("Menu")
-
+        self.show_frame("Taylor")
+        
     def create_frames(self):
         for screen in (Menu, Screen2, Screen3,a,Taylor):
             frame = screen(self.container, self)
